@@ -35,3 +35,8 @@
     color: white;
     cursor: pointer;
 }
+@media(max-width:768px){
+    .add{
+        width: 90%;
+    }
+}

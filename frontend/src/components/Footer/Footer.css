@@ -54,3 +54,16 @@
         text-align: center;
     }
 }
+@media(max-width:375px){
+    .footer{
+        padding-top: 50px;
+    }
+    .footer-content-left img{
+        width: 120px;
+        height: 40px;
+    }
+    .footer-social-icons img{
+        width: 30px;
+        margin-right: 10px;
+    }
+}

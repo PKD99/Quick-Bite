@@ -41,7 +41,7 @@ const List = ({url}) => {
               <b>Name</b>
               <b>Category</b>
               <b>Price</b>
-              <b>Action</b>
+              <b className='action'>Action</b>
            </div>
            {list.map((item,index)=>{
               return(

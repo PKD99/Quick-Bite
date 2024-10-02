@@ -82,6 +82,7 @@
     color: white;
     border-radius: 4px;
 }
+
 @media(max-width:750px){
     .cart-bottom{
         flex-direction: column-reverse;
@@ -89,4 +90,29 @@
     .cart-promocode{
         justify-content: start;
     }
+}
+@media(max-width:425px){
+    .cart{
+        margin-top: 50px;
+    }
+    .cart-items-title{
+        grid-template-columns: 1fr 1.5fr  1fr 1fr 0.5fr;
+    }
+   .price{
+     display: none;
+   }
+   .cart-total h2{
+     font-size: 18px;
+   }
+   .cart-total-details{
+     font-size: 14px;
+   }
+   .cart-total button{
+     font-size: 13px;
+     padding: 7px 0px;
+   }
+   .cart-items-item img{
+    width: 30px;
+   }
+
 }

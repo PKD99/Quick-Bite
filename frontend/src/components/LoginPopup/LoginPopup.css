@@ -63,3 +63,8 @@
     font-weight: 500;
     cursor: pointer;
 }
+@media(max-width:375px){
+    .login-popup-container{
+        width: max(20vw,270px);
+    }
+}
